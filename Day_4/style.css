@@ -1,0 +1,121 @@
+/*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: red;
+}
+
+#t1{
+    color: black;
+}
+
+.title{
+    color: green;
+}
+
+h1{
+    color: blue;
+}
+p{
+    background-color: aqua;
+}
+.para{
+    background-color: yellow;
+}
+p.para{
+    background-color: grey;
+}
+.para{
+    background-color: yellow;
+}*/
+/* /combinators/ */
+/*div p{
+    color: blueviolet;
+}*/
+/*div>p{
+    text-align: center;
+    background-color: yellow;
+    color: brown;
+}*/
+
+/* section>p{
+    color: brown;
+} */
+ /* ....adjacent sibling celectors..... */
+/* p+div{
+    background-color: aqua;
+}
+div+p{
+    background-color: orange;
+} */
+
+/* div~p{
+
+    background-color: yellow;
+
+} */
+/* p+p+p{
+    color: green;
+} */
+/* -------Pseudo Classes----- */
+/* p:hover{
+
+    font-size: 32px;
+    background-color: burlywood;
+}
+a:visited{
+    background-color: green;
+} */
+ /* button{
+    border: none;
+    padding: 8px 16px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 4px 2px 6px rgb(167, 92, 92);
+    transition: all 300ms ease;
+ }
+ button:hover{
+    background-color:rgb(159, 203, 92);
+    scale: 1.2;
+ } */
+  /* ----pseudo classes-------------- */
+  /*li:first-child{
+    background-color: yellow;
+  }
+  p:nth-child(2){
+    background-color: red;
+  }
+  /* this does not work  */
+  /*p:nth-child(3){
+    background-color: aqua;
+  }
+  /* this works */
+  /*li:nth-child(3){
+    background-color: aqua;
+  }
+ p:first-of-type{
+    background-color: blue;
+ }
+ li:last-of-type{
+    background-color: yellow;
+ }*/
+.parent>div{
+        font-size: 24px;
+        background-color: rgb(198, 196, 255);
+        border: 1px solid brown;
+        width: 400px;
+    }
+/* .parent{
+       display:flex;
+       justify-content: center;
+       /*flex-wrap: warp; */
+       /* gap: 10px; */
+       /* height: 400px; */
+       background-color: chartreuse;
+    } */
+ 
+.chlid3{
+    flex-grow: 1;
+}
