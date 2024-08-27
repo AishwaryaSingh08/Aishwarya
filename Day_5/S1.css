@@ -1,0 +1,47 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+/* }
+.parent{
+    /*width: 16px;
+    padding: 16px;
+    background-color: aqua;
+    font-size: 30px;
+}
+
+.submit-button{
+    /*width: 10em;*/
+    /* background-color: yellow;
+} */ 
+
+/* .text{
+    font-size: 2em;
+    background-color: rgb(255, 127, 223);
+    width: 10em;
+} */
+
+.btn{
+    
+        border: none;
+        padding: 0.5em 1em;
+        background-color: rgb(29, 60, 29);
+        border-radius: 0.3em;
+        color: white;
+        font-size: 18px;
+        
+        transition: all 300ms ease;
+     }
+     button:hover{
+        background-color:rgb(159, 203, 92);
+        scale: 1.2;
+     } 
+     button:active{
+        scale:0.9;
+     }
+     .large{
+        font-size: 32px;
+     }
+     .small{
+        font-size: 12px;
+     }
+    }
